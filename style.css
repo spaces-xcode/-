@@ -1,0 +1,146 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+  background: linear-gradient(135deg, #fef3e0, #ffe4ec);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  padding: 24px;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: #d6336c;
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+
+p.subtitle {
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+button.char-btn {
+  border: 2px solid #ffd6e0;
+  background: #fff9fb;
+  border-radius: 14px;
+  padding: 12px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+button.char-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(214,51,108,0.2);
+}
+
+button.char-btn img {
+  width: 80px;
+  border-radius: 10px;
+}
+
+button.char-btn span {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+#speech {
+  margin-top: 18px;
+  padding: 14px;
+  background: #fff0f5;
+  color: #b5306e;
+  border-radius: 12px;
+  font-size: 15px;
+  display: none;
+  min-height: 30px;
+}
+
+#start-quiz, #replay {
+  margin-top: 20px;
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #ff8fab, #ff6b9d);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#start-quiz:hover, #replay:hover {
+  opacity: 0.9;
+}
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+#quiz-name {
+  font-size: 22px;
+  font-weight: 700;
+  color: #d6336c;
+  margin: 8px 0 16px;
+}
+
+.quiz-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.quiz-options button {
+  border: 2px solid #ffd6e0;
+  background: #fff9fb;
+  border-radius: 14px;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.quiz-options button img {
+  width: 70px;
+  border-radius: 10px;
+}
+
+#feedback {
+  min-height: 26px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 14px;
+}
+
+#end-view p.big {
+  font-size: 22px;
+  font-weight: 700;
+  color: #d6336c;
+  margin: 24px 0 8px;
+}

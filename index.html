@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>لعبة التعارف - اليوم الأول الدراسي</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card">
+  <h1>🎒 اليوم الأول الدراسي</h1>
+
+  <div id="intro-view">
+    <p class="subtitle">إضغط على أي صورة للتعرف عليها</p>
+    <div id="intro-cards" class="grid"></div>
+    <div id="speech"></div>
+    <button id="start-quiz">ابدأ لعبة من أنا؟</button>
+  </div>
+
+  <div id="quiz-view" style="display:none;">
+    <div class="quiz-header">
+      <span id="score-label">النقاط: 0</span>
+      <span id="q-label">السؤال 1 من 4</span>
+    </div>
+    <p id="quiz-name"></p>
+    <div id="quiz-options" class="quiz-options"></div>
+    <p id="feedback"></p>
+  </div>
+
+  <div id="end-view" style="display:none;">
+    <p class="big">🎉 أحسنت! لقد تعرفت على جميع أصدقائك</p>
+    <p style="color:#888;">نقاطك: <span id="final-score"></span> من 4</p>
+    <button id="replay">إعادة اللعبة</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
