@@ -1,8 +1,8 @@
 const chars = [
-  { name: "ياسمين", greet: "مرحباً! أنا ياسمين، سعيدة بلقائك في أول يوم دراسي!", src: "images/yasmine.jpg" },
-  { name: "بشرى", greet: "أهلاً بك! اسمي بشرى، متحمسة جداً لهذا اليوم!", src: "images/boushra.jpg" },
-  { name: "يد", greet: "مرحباً، أنا يد! هيا نصبح أصدقاء.", src: "images/hand.jpg" },
-  { name: "ليمون", greet: "أهلاً! اسمي ليمون، يسعدني التعرف عليكم جميعاً!", src: "images/lemon.jpg" }
+  { name: "ياسمين", greet: "مرحباً! أنا ياسمين، سعيدة بلقائك في أول يوم دراسي!", src: "yasmine.jpg" },
+  { name: "بشرى", greet: "أهلاً بك! اسمي بشرى، متحمسة جداً لهذا اليوم!", src: "boushra.jpg" },
+  { name: "يد", greet: "مرحباً، أنا يد! هيا نصبح أصدقاء.", src: "hand.jpg" },
+  { name: "ليمون", greet: "أهلاً! اسمي ليمون، يسعدني التعرف عليكم جميعاً!", src: "lemon.jpg" }
 ];
 
 function shuffle(arr) {
